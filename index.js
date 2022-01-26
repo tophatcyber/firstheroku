@@ -41,7 +41,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(cookieParser());
 
-const uri = "mongodb+srv://nasir:5pcEwh7TQRtxQSK@cluster0.74zah.mongodb.net/blog?retryWrites=true&w=majority";
+
+const uri = "mongodb+srv://admin:fedstuff2@cluster0.iz311.mongodb.net/blog?retryWrites=true&w=majority";
 const conn = mongoose.createConnection(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 conn.on('connected', function() {
