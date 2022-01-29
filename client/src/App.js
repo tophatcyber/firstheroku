@@ -6,6 +6,8 @@ import Mainfaqss from "./Mainfaqss";
 import Blog from "./Blog";
 import BlogArticle from "./BlogArticle";
 import cardsdata from "./cardsdata";
+import Article from "./Article"; 
+import articledata from "./articledata";
 
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 

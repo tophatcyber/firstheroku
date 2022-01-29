@@ -18,7 +18,7 @@ return(
 
 <div className='row yan'> 
 <div className="cards">
-  <div className="card content">
+<Link to="/signup">    <div className="card content">
     <div className="card-content">
       <div className="card-img">
         <img src="https://source.unsplash.com/900x300/?cryptocurrency" alt="Gamer"/>
@@ -27,8 +27,9 @@ return(
       <div className="card-title">
         stay ahead with latest news in cryptocurrency
       </div>
+      
     </div>
-  </div>
+  </div>   </Link>
   <div className="card content">
     <div className="card-content">
       <div className="card-img">
