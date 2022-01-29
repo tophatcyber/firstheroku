@@ -117,7 +117,7 @@ render(){
                         <Link to='/faqs' id="link-css" 
                             className="list-group-item list-group-item-action border-0 rounded-0">News</Link>
                        <Link to='/faqs' id="link-javascript" 
-                            className="list-group-item list-group-item-action border-0 rounded-0">.Net</Link>
+                            className="list-group-item list-group-item-action border-0 rounded-0">FAQ</Link>
                         <Link to='/faqs' id="link-customization" 
                             className="list-group-item list-group-item-action border-0 rounded-0">Demo Page</Link>
                       <Link to='/faqs' id="link-customization" 

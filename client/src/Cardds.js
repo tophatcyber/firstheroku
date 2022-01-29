@@ -24,10 +24,10 @@ return(
         <img src="https://source.unsplash.com/900x300/?cryptocurrency" alt="Gamer"/>
       </div>
       <div className="card-label">Crypto News</div>
-      <div className="card-title">
+      <Link to ="/signup"> <div className="card-title">
         stay ahead with latest news in cryptocurrency
-      </div>
-      
+      </div> 
+      </Link>
     </div>
   </div>
   <div className="card content">
@@ -38,9 +38,9 @@ return(
       <div className="card-label">
         Bitcoin
       </div>
-      <div className="card-title">
+      <Link to="/signup"> <div className="card-title">
         Bitcoin Mining: the future
-      </div>
+      </div> </Link>
     </div>
   </div>
   <div className="card content">
