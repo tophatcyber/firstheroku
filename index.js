@@ -17,8 +17,8 @@ require('dotenv').config();
 
 
 const PORT = process.env.PORT;
-MY_GMAIL="jumanaturetech@gmail.com"
-MY_GMAIL_PASSWORD="jytm khdc rxwu kxwy"
+const MY_GMAIL = process.env.MY_GMAIL
+const MY_GMAIL_PASSWORD= process.env.MY_GMAIL_PASSWORD
 
 const app = express()
 const port =  PORT || 5000;
