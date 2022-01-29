@@ -94,7 +94,7 @@ render(){
                 <div className="dropdown"> 
                     <button className="dropbtn " aria-labelledby="navbarDropdown">Dropdown</button> 
                     <div className="dropdown-content drp2"> 
-                        <Link to="/faqs"><span> Brian</span></Link> 
+                        <Link to="/aboutbrian"><span> Brian</span></Link> 
                         <Link to="/faqs"><span> Terry</span></Link>
                         <Link to="/faqs"><span> O'Brian</span></Link>
                     </div>

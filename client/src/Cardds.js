@@ -18,7 +18,7 @@ return(
 
 <div className='row yan'> 
 <div className="cards">
-<Link to="/signup">    <div className="card content">
+<div className="card content">
     <div className="card-content">
       <div className="card-img">
         <img src="https://source.unsplash.com/900x300/?cryptocurrency" alt="Gamer"/>
@@ -29,7 +29,7 @@ return(
       </div>
       
     </div>
-  </div>   </Link>
+  </div>
   <div className="card content">
     <div className="card-content">
       <div className="card-img">
@@ -51,9 +51,9 @@ return(
       <div className="card-label">
         Ethereum
       </div>
-      <div className="card-title">
+      <Link to="/signup"><div className="card-title"> 
         Ethereum what lies ahead
-      </div>
+      </div> </Link>
     </div>
   </div>
   <div className="card form">

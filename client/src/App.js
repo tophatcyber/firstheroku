@@ -6,8 +6,7 @@ import Mainfaqss from "./Mainfaqss";
 import Blog from "./Blog";
 import BlogArticle from "./BlogArticle";
 import cardsdata from "./cardsdata";
-import Article from "./Article"; 
-import articledata from "./articledata";
+import AboutBrian from "./AboutBrian";
 
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
@@ -66,6 +65,8 @@ class App extends React.Component {
         <Route exact path="/signup"  element={< Signup />} />
         
         <Route exact path="/signin"  element={<Signin />} />
+        <Route exact path="/aboutbrian"  element={<AboutBrian/>} />
+        
        </Routes>
         </Router>
       
