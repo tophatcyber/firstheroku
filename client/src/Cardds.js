@@ -24,10 +24,9 @@ return(
         <img src="https://source.unsplash.com/900x300/?cryptocurrency" alt="Gamer"/>
       </div>
       <div className="card-label">Crypto News</div>
-      <Link to ="/signup"> <div className="card-title">
+      <Link to={this.tuja("initaly i wasnt aware?")}> <div className="card-title">
         stay ahead with latest news in cryptocurrency
-      </div> 
-      </Link>
+      </div> </Link>
     </div>
   </div>
   <div className="card content">
@@ -38,9 +37,9 @@ return(
       <div className="card-label">
         Bitcoin
       </div>
-      <Link to="/signup"> <div className="card-title">
+      <Link to={this.tuja("first of all")}>  <div className="card-title">
         Bitcoin Mining: the future
-      </div> </Link>
+      </div></Link>
     </div>
   </div>
   <div className="card content">
@@ -51,7 +50,7 @@ return(
       <div className="card-label">
         Ethereum
       </div>
-      <Link to="/signup"><div className="card-title"> 
+      <Link to={this.tuja("finalwork")}> <div className="card-title">
         Ethereum what lies ahead
       </div> </Link>
     </div>
