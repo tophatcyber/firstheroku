@@ -8,7 +8,23 @@ import {Link} from 'react-router-dom'
 class Cardds extends React.Component{
 
 
-
+  constructor(props){
+    super(props)
+  
+  
+    this.tuja = this.tuja.bind(this)
+  }
+  
+  tuja(smtxt){
+    var moto = encodeURIComponent(smtxt)
+  
+  
+    var uri  = `/${moto}`
+    console.log(uri)
+    return uri
+  
+  
+  }
 
 
 
