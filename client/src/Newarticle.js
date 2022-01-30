@@ -7,13 +7,13 @@ class Newarticle extends React.Component{
         this.state={
             title: this.props.title,
             body: this.props.body,
-            image: this.props.image,
+            src: this.props.src
         }
     }
 
     render(){
         return(
-            <div className='container-fluid text-center'>
+            <div className='container text-center'>
                 <div className="row">
                     <h1>{this.state.title}</h1>
                 </div>
