@@ -7,6 +7,8 @@ import Blog from "./Blog";
 import BlogArticle from "./BlogArticle";
 import cardsdata from "./cardsdata";
 import AboutBrian from "./AboutBrian";
+import newart from "./newart";
+import Newarticle from "./Newarticle";
 
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
@@ -18,7 +20,9 @@ class App extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      posts: cardsdata
+      posts: cardsdata, 
+      cards: newart
+
 
   }
     this.tuja = this.tuja.bind(this)
@@ -66,6 +70,9 @@ class App extends React.Component {
         
         <Route exact path="/signin"  element={<Signin />} />
         <Route exact path="/aboutbrian"  element={<AboutBrian/>} />
+
+
+        {this.state.cards.map(card => ( <Route key={card.id} exact path={this.tuja(card.title)} element={<Newarticle key={card.id} title={card.title} body={card.body}  src={card.src}/>} />))}
 
         
        </Routes>
